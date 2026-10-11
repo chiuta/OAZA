@@ -2,6 +2,8 @@
 
 Catalog de 340 de servicii web gratuite, în 54 de categorii, alese pentru că pot fi folosite fără cont (în forma lor de bază), într-un singur fișier HTML.
 
+**Ultima actualizare:** 11 octombrie 2026
+
 **Live:** https://chiuta.github.io/OAZA/
 
 ![Captura de ecran](screenshot.png)
@@ -64,3 +66,8 @@ Alexio — Alexandru-Ionuț Chiuță, contact: alexio@trom.tf
 ## English summary
 
 OAZĂ is a single-file Romanian-language catalog of 340 free web services in 54 categories, chosen because their basic use needs no account, plus a search bar that opens your chosen engine. It is editable and self-reproducing ("quine"): download produces a new standalone file with your changes. The page itself has no telemetry, no browser storage and loads no external resources; external sites are contacted only when you click. Descriptions of third-party services were checked by the author on 16 June 2026 and may be out of date; see `servicii-de-verificat.md` and `tools/verifica-servicii.mjs`.
+
+## Istoric / Changelog
+
+- **11 octombrie 2026** — conținutul paginii (căutare, note, filtru, categorii) este încadrat într-un singur reper `main`, deci axe-core dă 0 violări la 1280×800 și 360×740; verificat că filtrul și „sursă (quine)” funcționează fără erori JS.
+- Lista de 340 de servicii **nu a fost reverificată** în această rundă: afirmațiile „fără cont / gratuit / fără urmărire” aparțin autorului și datei afișate în pagină („verificat de autor · 16 iunie 2026 · poate fi depășit”), care a rămas neschimbată; reverificarea se face local cu `tools/verifica-servicii.mjs` (vezi `servicii-de-verificat.md`). Aplicația nu are număr de versiune.

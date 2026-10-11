@@ -4,6 +4,8 @@
 
 În pagină, afirmațiile sunt atenuate acolo unde cunoștințele generale arătau un risc (reclame, cont pentru organizator, licențe proprii, instanțe nesigure). Notele de mai jos din cunoștințe generale (nu din verificare online) sunt **semnale de reverificat, nu fapte stabilite**; formulează cu prudență orice corectură publică.
 
+**Actualizare 2026-10-11:** lista nu a fost reverificată în această rundă (fără acces la rețea pentru script); data din pagină rămâne 16 iunie 2026.
+
 ## 1. Cum se reverifică (periodic, de ex. la 3 luni)
 
 1. Rulează local `node tools/verifica-servicii.mjs > raport.tsv` (Node 18+; nu face parte din pagina publicată). Scriptul verifică starea HTTP, redirecționările spre alt domeniu, timpul de răspuns și marchează paginile care conțin text de tip „sign in / create account”. E o euristică: semnalele se confirmă manual.
