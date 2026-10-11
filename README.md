@@ -17,7 +17,8 @@ Fișierul este un „quine” editabil: se poate modifica în pagină, iar buton
 ## Funcții
 
 - 340 de servicii în 54 de categorii; carduri cu descriere scurtă, domeniu și etichete (`TROM`, `local`, `instabil`, `temp`, ★ recomandat); unele categorii au o notă de prudență.
-- Filtrare instantanee a listei (fără diacritice: „cautare” găsește „Căutare”), cu mesaj când nu există rezultate.
+- Filtrare instantanee a listei (fără diacritice: „cautare” găsește „Căutare”), cu mesaj când nu există rezultate; tasta `/` mută cursorul în câmpul de filtrare.
+- Temă luminoasă automată (`prefers-color-scheme: light`) și stil de tipărire (carduri pe 3 coloane, cu adresa completă; bare și butoane ascunse).
 - Bară de căutare cu 7 motoare (DuckDuckGo, SearXNG, Brave, Startpage, Mojeek, Marginalia, Wikipedia); căutarea se deschide într-o filă nouă.
 - Mod de editare: adaugi, modifici, muți sau ștergi servicii; adaugi, redenumești sau ștergi categorii; editezi titlul și sub-titlul; vezi și editezi datele brute JSON; importi/exporți JSON; resetezi la lista implicită.
 - Partajare prin link cu fragment `#d=` (lista ta e codată în adresă); la deschidere apare un avertisment că lista nu este cea a autorului, iar adresele sunt curățate (doar `http`/`https`).
@@ -69,5 +70,6 @@ OAZĂ is a single-file Romanian-language catalog of 340 free web services in 54 
 
 ## Istoric / Changelog
 
+- **11 octombrie 2026** — reparat quine-ul: coaja codată în pagină nu includea reperul `main`, deci „descarcă” și „sursă” produceau un fișier diferit de cel deschis; acum fișierul descărcat este identic octet cu octet cu cel deschis (verificat). Adăugate tema luminoasă, stilul de tipărire și scurtătura `/`. Notă: o politică CSP pe hash de script nu este posibilă, deoarece scriptul conține propria sursă codată (auto-referință); rămâne `'unsafe-inline'`.
 - **11 octombrie 2026** — conținutul paginii (căutare, note, filtru, categorii) este încadrat într-un singur reper `main`, deci axe-core dă 0 violări la 1280×800 și 360×740; verificat că filtrul și „sursă (quine)” funcționează fără erori JS.
 - Lista de 340 de servicii **nu a fost reverificată** în această rundă: afirmațiile „fără cont / gratuit / fără urmărire” aparțin autorului și datei afișate în pagină („verificat de autor · 16 iunie 2026 · poate fi depășit”), care a rămas neschimbată; reverificarea se face local cu `tools/verifica-servicii.mjs` (vezi `servicii-de-verificat.md`). Aplicația nu are număr de versiune.
