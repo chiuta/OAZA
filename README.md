@@ -2,7 +2,7 @@
 
 Catalog de 340 de servicii web gratuite, în 54 de categorii, alese pentru că pot fi folosite fără cont (în forma lor de bază), într-un singur fișier HTML.
 
-**Ultima actualizare:** 11 octombrie 2026
+**Versiune:** 1.0.0 · **Ultima actualizare:** 12 octombrie 2026
 
 **Live:** https://chiuta.github.io/OAZA/
 
@@ -70,6 +70,7 @@ OAZĂ is a single-file Romanian-language catalog of 340 free web services in 54 
 
 ## Istoric / Changelog
 
+- 1.0.0 — 2026-10-12: versiunea și data ultimei actualizări sunt afișate în aplicație
 - **11 octombrie 2026** (runda 7) — CSP cu `script-src` pe hash SHA-256, fără `'unsafe-inline'`. Cercul „hash-ul scriptului e în propriul script” a fost rupt: coaja codată din quine conține un marcaj în locul meta-ului CSP, iar `buildSource` îl completează la rulare cu meta-ul paginii deschise (deci hash-ul stă doar în fișierul de pe disc, nu în `Q`). Verificat: fișierul deschis este identic octet cu octet cu `SELF_SOURCE`, iar un fișier generat după o modificare (generația a doua) se încarcă fără încălcări CSP și este la rândul lui un quine fidel; axe 0 violări la 1280×800 și 360×740. Dacă editezi manual scriptul, recalculează hash-ul din meta-ul CSP.
 - **11 octombrie 2026** — reparat quine-ul: coaja codată în pagină nu includea reperul `main`, deci „descarcă” și „sursă” produceau un fișier diferit de cel deschis; acum fișierul descărcat este identic octet cu octet cu cel deschis (verificat). Adăugate tema luminoasă, stilul de tipărire și scurtătura `/`. Notă: o politică CSP pe hash de script nu este posibilă, deoarece scriptul conține propria sursă codată (auto-referință); rămâne `'unsafe-inline'`.
 - **11 octombrie 2026** — conținutul paginii (căutare, note, filtru, categorii) este încadrat într-un singur reper `main`, deci axe-core dă 0 violări la 1280×800 și 360×740; verificat că filtrul și „sursă (quine)” funcționează fără erori JS.
