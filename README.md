@@ -2,7 +2,7 @@
 
 Catalog de 340 de servicii web gratuite, în 54 de categorii, alese pentru că pot fi folosite fără cont (în forma lor de bază), într-un singur fișier HTML.
 
-**Versiune:** 1.0.0 · **Ultima actualizare:** 12 octombrie 2026
+**Versiune:** 1.1.0 · **Ultima actualizare:** 14 octombrie 2026
 
 **Live:** https://chiuta.github.io/OAZA/
 
@@ -69,6 +69,8 @@ Alexio — Alexandru-Ionuț Chiuță, contact: alexio@trom.tf
 OAZĂ is a single-file Romanian-language catalog of 340 free web services in 54 categories, chosen because their basic use needs no account, plus a search bar that opens your chosen engine. It is editable and self-reproducing ("quine"): download produces a new standalone file with your changes. The page itself has no telemetry, no browser storage and loads no external resources; external sites are contacted only when you click. Descriptions of third-party services were checked by the author on 16 June 2026 and may be out of date; see `servicii-de-verificat.md` and `tools/verifica-servicii.mjs`.
 
 ## Istoric / Changelog
+
+- 1.1.0 — 2026-10-14: Copie de rezervă și etichetare date (fff-kit).
 
 - 1.0.0 — 2026-10-12: versiunea și data ultimei actualizări sunt afișate în aplicație
 - **11 octombrie 2026** (runda 7) — CSP cu `script-src` pe hash SHA-256, fără `'unsafe-inline'`. Cercul „hash-ul scriptului e în propriul script” a fost rupt: coaja codată din quine conține un marcaj în locul meta-ului CSP, iar `buildSource` îl completează la rulare cu meta-ul paginii deschise (deci hash-ul stă doar în fișierul de pe disc, nu în `Q`). Verificat: fișierul deschis este identic octet cu octet cu `SELF_SOURCE`, iar un fișier generat după o modificare (generația a doua) se încarcă fără încălcări CSP și este la rândul lui un quine fidel; axe 0 violări la 1280×800 și 360×740. Dacă editezi manual scriptul, recalculează hash-ul din meta-ul CSP.
