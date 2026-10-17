@@ -58,7 +58,7 @@ Descarcă `index.html` și deschide-l în browser. Catalogul, filtrarea și edit
 
 ## Licență
 
-Licența nu este încă declarată.
+MIT — vezi fișierul LICENSE.
 
 ## Autor
 
