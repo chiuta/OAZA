@@ -24,7 +24,7 @@ Fișierul este un „quine” editabil: se poate modifica în pagină, iar buton
 - Partajare prin link cu fragment `#d=` (lista ta e codată în adresă); la deschidere apare un avertisment că lista nu este cea a autorului, iar adresele sunt curățate (doar `http`/`https`).
 - „Descarcă acest fișier” și „sursă (quine)”: fișierul se reconstruiește singur, inclusiv modificările tale.
 - Avertisment la părăsirea paginii dacă ai modificări nesalvate.
-- Script de verificare periodică a serviciilor: `tools/verifica-servicii.mjs` (se rulează local; vezi `servicii-de-verificat.md`).
+- Script de verificare periodică a serviciilor: `tools/verifica-servicii.mjs` (se rulează local; pe telefon, în Termux: `curl -sL https://raw.githubusercontent.com/chiuta/OAZA/main/tools/verifica-termux.sh | bash`; vezi `servicii-de-verificat.md`).
 
 ## Manual de utilizare
 

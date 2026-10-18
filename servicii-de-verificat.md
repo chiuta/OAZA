@@ -10,7 +10,7 @@
 
 ## 1. Cum se reverifică (periodic, de ex. la 3 luni)
 
-1. Rulează local `node tools/verifica-servicii.mjs > raport.tsv` (Node 18+; nu face parte din pagina publicată). Scriptul verifică starea HTTP, redirecționările spre alt domeniu, timpul de răspuns și marchează paginile care conțin text de tip „sign in / create account”. E o euristică: semnalele se confirmă manual.
+1. Pe telefon (Termux) rulează `curl -sL https://raw.githubusercontent.com/chiuta/OAZA/main/tools/verifica-termux.sh | bash` (instalează Node/git, rulează verificarea și scrie `raport-AAAALLZZ.tsv`, `probleme.tsv`, `de-vazut.tsv`). Pe calculator: `node tools/verifica-servicii.mjs > raport.tsv` (Node 18+; nu face parte din pagina publicată). Scriptul verifică starea HTTP, redirecționările spre alt domeniu, timpul de răspuns și marchează paginile care conțin text de tip „sign in / create account”. E o euristică: semnalele se confirmă manual.
 2. Pentru fiecare rând marcat deschide serviciul într-o fereastră privată și verifică: (a) se poate folosi funcția descrisă fără cont? (b) apar reclame sau fereastră de înregistrare? (c) politica de confidențialitate / termenii s-au schimbat? (d) adresa e încă cea oficială (domeniu preluat, redirecționare spre alt produs)?
 3. Actualizează data din antetul paginii (`dateBadge`) numai după ce ai parcurs lista.
 4. Pentru servicii eliminate sau schimbate, folosește editorul din pagină și apoi „descarcă acest fișier” (quine), sau modifică direct `defaultData()` în sursă.
