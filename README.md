@@ -2,7 +2,7 @@
 
 Catalog de 340 de servicii web gratuite, în 54 de categorii, alese pentru că pot fi folosite fără cont (în forma lor de bază), într-un singur fișier HTML.
 
-**Versiune:** 1.1.0 · **Ultima actualizare:** 14 octombrie 2026
+**Versiune:** 1.1.1 · **Ultima actualizare:** 18 octombrie 2026
 
 **Live:** https://chiuta.github.io/OAZA/
 

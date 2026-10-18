@@ -4,6 +4,8 @@
 
 În pagină, afirmațiile sunt atenuate acolo unde cunoștințele generale arătau un risc (reclame, cont pentru organizator, licențe proprii, instanțe nesigure). Notele de mai jos din cunoștințe generale (nu din verificare online) sunt **semnale de reverificat, nu fapte stabilite**; formulează cu prudență orice corectură publică.
 
+**Actualizare 2026-10-18 (v1.1.1):** verificată aplicația (nu serviciile): 340 de servicii în 54 de categorii, toate adresele `https://` fără parametri, 0 cereri externe la încărcare, 0 erori JS/CSP la 1280 și 390 px, fără depășire orizontală, `fff-kit check` ok, buton Buy Me a Coffee unitar. Serviciile externe NU au fost reverificate online (sandbox fără acces la rețea); data din pagină rămâne 16 iunie 2026 până la rularea `node tools/verifica-servicii.mjs > raport.tsv` local.
+
 **Actualizare 2026-10-11:** lista nu a fost reverificată în această rundă (fără acces la rețea pentru script); data din pagină rămâne 16 iunie 2026.
 
 ## 1. Cum se reverifică (periodic, de ex. la 3 luni)
