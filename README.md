@@ -1,66 +1,68 @@
-# OAZĂ — servicii online dăruite
+# OAZĂ — gifted online services
 
-Catalog de 340 de servicii web gratuite, în 54 de categorii, alese pentru că pot fi folosite fără cont (în forma lor de bază), într-un singur fișier HTML.
+**English** · [Română](README.ro.md) · [Français](README.fr.md) · [Italiano](README.it.md) · [Español](README.es.md) · [Português](README.pt.md) · [Deutsch](README.de.md) · [Magyar](README.hu.md)
 
-**Versiune:** 1.1.1 · **Ultima actualizare:** 18 octombrie 2026
+**Version:** 1.1.1 · **Last updated:** 2026-10-18
+
+A catalogue of 340 free web services in 54 categories, chosen because they can be used without an account (in their basic form), in a single HTML file.
 
 **Live:** https://chiuta.github.io/OAZA/
 
-![Captura de ecran](screenshot.png)
+![Screenshot](screenshot.png)
 
-## Ce este
+## What it is
 
-OAZĂ este un „startpage” în spiritul mișcării trade-free: o listă de unelte și servicii externe (căutare, AI, hărți, cod, lectură, muzică, știință, software liber, resurse românești ș.a.), grupate pe categorii, cu o bară de căutare care deschide motorul de căutare ales. Autorul a verificat lista la **16 iunie 2026**; ea **poate fi depășită** (vezi „Limite și avertismente”).
+OAZĂ is a "startpage" in the spirit of the trade-free movement: a list of external tools and services (search, AI, maps, code, reading, music, science, free software, Romanian resources and others), grouped by category, with a search bar that opens the search engine of your choice. The author checked the list on **16 June 2026**; it **may be out of date** (see "Limits and warnings").
 
-Fișierul este un „quine” editabil: se poate modifica în pagină, iar butonul „descarcă” generează un fișier nou, tot autonom, cu modificările tale.
+The file is an editable "quine": it can be modified in the page, and the "download" button generates a new file, also self-contained, with your changes.
 
-## Funcții
+## Features
 
-- 340 de servicii în 54 de categorii; carduri cu descriere scurtă, domeniu și etichete (`TROM`, `local`, `instabil`, `temp`, ★ recomandat); unele categorii au o notă de prudență.
-- Filtrare instantanee a listei (fără diacritice: „cautare” găsește „Căutare”), cu mesaj când nu există rezultate; tasta `/` mută cursorul în câmpul de filtrare.
-- Temă luminoasă automată (`prefers-color-scheme: light`) și stil de tipărire (carduri pe 3 coloane, cu adresa completă; bare și butoane ascunse).
-- Bară de căutare cu 7 motoare (DuckDuckGo, SearXNG, Brave, Startpage, Mojeek, Marginalia, Wikipedia); căutarea se deschide într-o filă nouă.
-- Mod de editare: adaugi, modifici, muți sau ștergi servicii; adaugi, redenumești sau ștergi categorii; editezi titlul și sub-titlul; vezi și editezi datele brute JSON; importi/exporți JSON; resetezi la lista implicită.
-- Partajare prin link cu fragment `#d=` (lista ta e codată în adresă); la deschidere apare un avertisment că lista nu este cea a autorului, iar adresele sunt curățate (doar `http`/`https`).
-- „Descarcă acest fișier” și „sursă (quine)”: fișierul se reconstruiește singur, inclusiv modificările tale.
-- Avertisment la părăsirea paginii dacă ai modificări nesalvate.
-- Script de verificare periodică a serviciilor: `tools/verifica-servicii.mjs` (se rulează local; pe telefon, în Termux: `curl -sL https://raw.githubusercontent.com/chiuta/OAZA/main/tools/verifica-termux.sh | bash`; vezi `servicii-de-verificat.md`).
+- 340 services in 54 categories; cards with a short description, domain and tags (`TROM`, `local`, `instabil`, `temp`, ★ recommended); some categories have a cautionary note.
+- Instant filtering of the list (diacritic-insensitive: "cautare" finds "Căutare"), with a message when there are no results; the `/` key moves the cursor to the filter field.
+- Automatic light theme (`prefers-color-scheme: light`) and print style (cards in 3 columns, with the full address; bars and buttons hidden).
+- Search bar with 7 engines (DuckDuckGo, SearXNG, Brave, Startpage, Mojeek, Marginalia, Wikipedia); the search opens in a new tab.
+- Edit mode: you add, modify, move or delete services; add, rename or delete categories; edit the title and subtitle; see and edit the raw JSON data; import/export JSON; reset to the default list.
+- Sharing through a link with a `#d=` fragment (your list is encoded in the address); on opening, a warning appears that the list is not the author's, and the addresses are sanitised (only `http`/`https`).
+- "Download this file" and "source (quine)": the file rebuilds itself, including your changes.
+- Warning when leaving the page if you have unsaved changes.
+- A script for periodically verifying the services: `tools/verifica-servicii.mjs` (run locally; on a phone, in Termux: `curl -sL https://raw.githubusercontent.com/chiuta/OAZA/main/tools/verifica-termux.sh | bash`; see `servicii-de-verificat.md`).
 
-## Manual de utilizare
+## User guide
 
-1. Deschide pagina și răsfoiește categoriile sau scrie în câmpul „filtrează lista” pentru a restrânge cardurile.
-2. Pentru o căutare pe web alege motorul din stânga barei, scrie termenul și apasă „caută” sau Enter; se deschide motorul ales într-o filă nouă.
-3. Apasă un card pentru a deschide serviciul într-o filă nouă. Citește descrierea și nota categoriei înainte (reclame, limite, licențe).
-4. Pentru a-ți personaliza lista apasă „✎ editează această pagină”; apoi folosește butoanele de pe carduri și bara de sus.
-5. Pentru a păstra modificările apasă „↧ descarcă acest fișier” și salvează fișierul; pentru a le trimite altcuiva apasă „⇗ link” (listele foarte mari produc linkuri foarte lungi).
-6. „↺ resetează” revine la lista implicită; „revino la catalogul original” (din avertismentul de sus) elimină o listă încărcată dintr-un link.
+1. Open the page and browse the categories or type in the "filter the list" field to narrow down the cards.
+2. For a web search, choose the engine on the left of the bar, type the term and press "search" or Enter; the chosen engine opens in a new tab.
+3. Click a card to open the service in a new tab. Read the description and the category note first (ads, limits, licences).
+4. To customise your list, press "✎ edit this page"; then use the buttons on the cards and the top bar.
+5. To keep your changes, press "↧ download this file" and save the file; to send them to someone else, press "⇗ link" (very large lists produce very long links).
+6. "↺ reset" goes back to the default list; "return to the original catalogue" (from the warning at the top) removes a list loaded from a link.
 
-## Confidențialitate și rețea
+## Privacy and network
 
-- Stocare locală: nu folosește `localStorage`, `sessionStorage`, IndexedDB sau cookie-uri; modificările există doar în pagina deschisă până le descarci.
-- Rețea: pagina nu încarcă scripturi, fonturi, imagini sau alte resurse externe. Singurul apel de rețea al paginii este o cerere către propriul fișier (aceeași origine), făcută la încărcare numai când pagina e servită prin `http(s)`, pentru indicatorul „quine verificat” de la insigna din antet; are timeout de 6 secunde. Un `Content-Security-Policy` din pagină restrânge conexiunile la aceeași origine.
-- Gazde externe: ale celor 340 de servicii listate (318 domenii distincte) și ale celor 7 motoare de căutare. Se contactează **doar când apeși** un card sau „caută”; pagina nu trimite referrer (`no-referrer`). Termenul căutat ajunge la motorul ales, iar ce faci pe serviciile listate este reglementat de ele, nu de OAZĂ.
-- Permisiuni ale browserului: nu cere nicio permisiune (locație, cameră, microfon).
-- Afirmația „fără telemetrie” se referă la fișierul OAZĂ, nu la serviciile externe.
+- Local storage: it uses no `localStorage`, `sessionStorage`, IndexedDB or cookies; changes exist only in the open page until you download them.
+- Network: the page loads no scripts, fonts, images or other external resources. The page's only network call is a request to its own file (same origin), made on load only when the page is served over `http(s)`, for the "quine verified" indicator on the header badge; it has a 6-second timeout. A `Content-Security-Policy` in the page restricts connections to the same origin.
+- External hosts: those of the 340 listed services (318 distinct domains) and of the 7 search engines. They are contacted **only when you click** a card or "search"; the page sends no referrer (`no-referrer`). The search term reaches the chosen engine, and what you do on the listed services is governed by them, not by OAZĂ.
+- Browser permissions: it requests no permission (location, camera, microphone).
+- The claim "no telemetry" refers to the OAZĂ file, not to the external services.
 
-## Limite și avertismente
+## Limits and warnings
 
-- **Servicii terțe.** Serviciile listate nu aparțin autorului și nu au legătură cu el (cu excepția celor etichetate TROM). Listarea nu este o recomandare. Ele pot cere cont, afișa reclame, adăuga planuri plătite, schimba condițiile sau dispărea oricând.
-- **Afirmații neverificate automat.** Etichete precum „fără cont”, „gratuit”, „open-source”, „fără urmărire” reproduc cunoștințele autorului sau declarațiile serviciilor, la data verificării (16 iunie 2026); nu sunt garanții. `servicii-de-verificat.md` conține lista serviciilor care trebuie reverificate manual și o procedură periodică.
-- **Confidențialitate.** Nu trimite date sensibile unor servicii publice (transfer de fișiere, notițe, apeluri, scanare). Frontend-urile prin Farside redirecționează către instanțe publice ale unor terți și sunt adesea indisponibile.
-- **Drepturi de autor.** Statutul de „domeniu public” diferă de la o țară la alta; licențele imaginilor, muzicii și fonturilor diferă de la serviciu la serviciu. Verifică licența înainte de reutilizare.
-- **Sănătate și siguranță.** Resursele medicale sunt informații generale, nu înlocuiesc consultul medical; în urgență sunați la 112. Hărțile meteo/marine nu sunt singura sursă pentru navigație sau siguranță.
-- **Liste partajate.** Un link `#d=` poate afișa o listă făcută de altcineva; adresele sunt filtrate la `http`/`https`, dar verifică destinația înainte să deschizi un serviciu necunoscut.
+- **Third-party services.** The listed services do not belong to the author and have no connection with him (except those labelled TROM). Listing is not a recommendation. They may require an account, display ads, add paid plans, change their terms or disappear at any time.
+- **Claims not verified automatically.** Labels such as "no account", "free", "open-source", "no tracking" reproduce the author's knowledge or the services' own statements, as of the verification date (16 June 2026); they are not guarantees. `servicii-de-verificat.md` contains the list of services that must be re-checked manually and a periodic procedure.
+- **Privacy.** Do not send sensitive data to public services (file transfer, notes, calls, scanning). Front-ends through Farside redirect to public instances run by third parties and are often unavailable.
+- **Copyright.** "Public domain" status differs from one country to another; the licences of images, music and fonts differ from service to service. Check the licence before reuse.
+- **Health and safety.** Medical resources are general information and do not replace a medical consultation; in an emergency call 112. Weather/marine maps are not the only source for navigation or safety.
+- **Shared lists.** A `#d=` link may display a list made by someone else; the addresses are filtered to `http`/`https`, but check the destination before opening an unknown service.
 
-## Rulare locală / offline
+## Running locally / offline
 
-Descarcă `index.html` și deschide-l în browser. Catalogul, filtrarea și editarea funcționează fără internet; serviciile listate și motoarele de căutare au nevoie de conexiune. Indicatorul „quine verificat” apare doar când fișierul e servit prin `http(s)`.
+Download `index.html` and open it in a browser. The catalogue, filtering and editing work without internet; the listed services and the search engines need a connection. The "quine verified" indicator appears only when the file is served over `http(s)`.
 
-## Licență
+## License
 
-MIT — vezi fișierul LICENSE.
+MIT — see the LICENSE file.
 
-## Autor
+## Author
 
 Alexio — Alexandru-Ionuț Chiuță, contact: alexio@trom.tf
 
@@ -68,12 +70,12 @@ Alexio — Alexandru-Ionuț Chiuță, contact: alexio@trom.tf
 
 OAZĂ is a single-file Romanian-language catalog of 340 free web services in 54 categories, chosen because their basic use needs no account, plus a search bar that opens your chosen engine. It is editable and self-reproducing ("quine"): download produces a new standalone file with your changes. The page itself has no telemetry, no browser storage and loads no external resources; external sites are contacted only when you click. Descriptions of third-party services were checked by the author on 16 June 2026 and may be out of date; see `servicii-de-verificat.md` and `tools/verifica-servicii.mjs`.
 
-## Istoric / Changelog
+## History / Changelog
 
-- 1.1.0 — 2026-10-14: Copie de rezervă și etichetare date (fff-kit).
+- 1.1.0 — 2026-10-14: Backup and data labelling (fff-kit).
 
-- 1.0.0 — 2026-10-12: versiunea și data ultimei actualizări sunt afișate în aplicație
-- **11 octombrie 2026** (runda 7) — CSP cu `script-src` pe hash SHA-256, fără `'unsafe-inline'`. Cercul „hash-ul scriptului e în propriul script” a fost rupt: coaja codată din quine conține un marcaj în locul meta-ului CSP, iar `buildSource` îl completează la rulare cu meta-ul paginii deschise (deci hash-ul stă doar în fișierul de pe disc, nu în `Q`). Verificat: fișierul deschis este identic octet cu octet cu `SELF_SOURCE`, iar un fișier generat după o modificare (generația a doua) se încarcă fără încălcări CSP și este la rândul lui un quine fidel; axe 0 violări la 1280×800 și 360×740. Dacă editezi manual scriptul, recalculează hash-ul din meta-ul CSP.
-- **11 octombrie 2026** — reparat quine-ul: coaja codată în pagină nu includea reperul `main`, deci „descarcă” și „sursă” produceau un fișier diferit de cel deschis; acum fișierul descărcat este identic octet cu octet cu cel deschis (verificat). Adăugate tema luminoasă, stilul de tipărire și scurtătura `/`. Notă: o politică CSP pe hash de script nu este posibilă, deoarece scriptul conține propria sursă codată (auto-referință); rămâne `'unsafe-inline'`.
-- **11 octombrie 2026** — conținutul paginii (căutare, note, filtru, categorii) este încadrat într-un singur reper `main`, deci axe-core dă 0 violări la 1280×800 și 360×740; verificat că filtrul și „sursă (quine)” funcționează fără erori JS.
-- Lista de 340 de servicii **nu a fost reverificată** în această rundă: afirmațiile „fără cont / gratuit / fără urmărire” aparțin autorului și datei afișate în pagină („verificat de autor · 16 iunie 2026 · poate fi depășit”), care a rămas neschimbată; reverificarea se face local cu `tools/verifica-servicii.mjs` (vezi `servicii-de-verificat.md`). Aplicația nu are număr de versiune.
+- 1.0.0 — 2026-10-12: the version and the date of the last update are shown in the app
+- **11 October 2026** (round 7) — CSP with `script-src` by SHA-256 hash, without `'unsafe-inline'`. The circle "the script's hash is in the script itself" was broken: the shell encoded in the quine contains a marker in place of the CSP meta, and `buildSource` fills it in at run time with the meta of the open page (so the hash lives only in the file on disk, not in `Q`). Verified: the open file is byte-for-byte identical to `SELF_SOURCE`, and a file generated after a modification (second generation) loads without CSP violations and is in turn a faithful quine; axe 0 violations at 1280×800 and 360×740. If you edit the script manually, recalculate the hash in the CSP meta.
+- **11 October 2026** — fixed the quine: the shell encoded in the page did not include the `main` landmark, so "download" and "source" produced a file different from the open one; now the downloaded file is byte-for-byte identical to the open one (verified). Added the light theme, the print style and the `/` shortcut. Note: a script-hash CSP policy is not possible, because the script contains its own encoded source (self-reference); `'unsafe-inline'` remains.
+- **11 October 2026** — the page content (search, notes, filter, categories) is wrapped in a single `main` landmark, so axe-core gives 0 violations at 1280×800 and 360×740; verified that the filter and "source (quine)" work without JS errors.
+- The list of 340 services was **not re-verified** in this round: the claims "no account / free / no tracking" belong to the author and to the date shown in the page ("verified by the author · 16 June 2026 · may be out of date"), which stayed unchanged; re-verification is done locally with `tools/verifica-servicii.mjs` (see `servicii-de-verificat.md`). The app has no version number.
