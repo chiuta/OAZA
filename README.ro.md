@@ -68,9 +68,9 @@ MIT — vezi fișierul LICENSE.
 
 Alexio — Alexandru-Ionuț Chiuță, contact: alexio@trom.tf
 
-## English summary
+## Rezumat
 
-OAZĂ is a single-file Romanian-language catalog of 340 free web services in 54 categories, chosen because their basic use needs no account, plus a search bar that opens your chosen engine. It is editable and self-reproducing ("quine"): download produces a new standalone file with your changes. The page itself has no telemetry, no browser storage and loads no external resources; external sites are contacted only when you click. Descriptions of third-party services were checked by the author on 16 June 2026 and may be out of date; see `servicii-de-verificat.md` and `tools/verifica-servicii.mjs`.
+OAZĂ este un catalog într-un singur fișier, în limba română, cu 340 de servicii web gratuite în 54 de categorii, alese pentru că utilizarea lor de bază nu cere cont, plus o bară de căutare care deschide motorul ales de tine. Este editabil și autoreproductibil („quine”): descărcarea produce un fișier nou, independent, cu modificările tale. Pagina în sine nu are telemetrie, nu folosește stocarea browserului și nu încarcă resurse externe; site-urile externe sunt contactate doar la clic. Descrierile serviciilor terțe au fost verificate de autor la 16 iunie 2026 și pot fi depășite; vezi `servicii-de-verificat.md` și `tools/verifica-servicii.mjs`.
 
 ## Istoric / Changelog
 
