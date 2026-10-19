@@ -10,7 +10,7 @@ Katalog mit 340 kostenlosen Webdiensten in 54 Kategorien, ausgewählt, weil sie 
 
 **Online:** https://chiuta.github.io/OAZA/
 
-![Screenshot](screenshot.png)
+![Screenshot](screenshot.de.png)
 
 ## Was es ist
 

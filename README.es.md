@@ -10,7 +10,7 @@ Catálogo de 340 servicios web gratuitos, en 54 categorías, elegidos porque se 
 
 **En línea:** https://chiuta.github.io/OAZA/
 
-![Captura de pantalla](screenshot.png)
+![Captura de pantalla](screenshot.es.png)
 
 ## Qué es
 

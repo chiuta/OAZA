@@ -10,7 +10,7 @@ Catalog de 340 de servicii web gratuite, în 54 de categorii, alese pentru că p
 
 **Live:** https://chiuta.github.io/OAZA/
 
-![Captura de ecran](screenshot.png)
+![Captura de ecran](screenshot.ro.png)
 
 ## Ce este
 

@@ -10,7 +10,7 @@ A catalogue of 340 free web services in 54 categories, chosen because they can b
 
 **Live:** https://chiuta.github.io/OAZA/
 
-![Screenshot](screenshot.png)
+![Screenshot](screenshot.en.png)
 
 ## What it is
 

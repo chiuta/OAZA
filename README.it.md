@@ -10,7 +10,7 @@ Catalogo di 340 servizi web gratuiti, in 54 categorie, scelti perché si possono
 
 **Online:** https://chiuta.github.io/OAZA/
 
-![Schermata](screenshot.png)
+![Schermata](screenshot.it.png)
 
 ## Che cos'è
 
