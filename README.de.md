@@ -68,8 +68,7 @@ MIT — siehe die Datei LICENSE.
 
 Alexio — Alexandru-Ionuț Chiuță, Kontakt: alexio@trom.tf
 
-## Zusammenfassung auf Englisch
-
+## Zusammenfassung
 OAZĂ ist ein rumänischsprachiger Ein-Datei-Katalog mit 340 kostenlosen Webdiensten in 54 Kategorien, ausgewählt, weil ihre Grundnutzung kein Konto braucht, plus einer Suchleiste, die die gewählte Suchmaschine öffnet. Er ist bearbeitbar und selbstreproduzierend („Quine“): Der Download erzeugt eine neue eigenständige Datei mit deinen Änderungen. Die Seite selbst hat keine Telemetrie, nutzt keinen Browserspeicher und lädt keine externen Ressourcen; externe Seiten werden nur kontaktiert, wenn du klickst. Die Beschreibungen der Dienste Dritter wurden vom Autor am 16. Juni 2026 geprüft und können veraltet sein; siehe `servicii-de-verificat.md` und `tools/verifica-servicii.mjs`.
 
 ## Verlauf / Changelog

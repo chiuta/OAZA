@@ -68,8 +68,7 @@ MIT — veja o ficheiro LICENSE.
 
 Alexio — Alexandru-Ionuț Chiuță, contacto: alexio@trom.tf
 
-## Resumo em inglês
-
+## Resumo
 A OAZĂ é um catálogo romeno num único ficheiro de 340 serviços web gratuitos em 54 categorias, escolhidos porque a sua utilização básica não precisa de conta, com uma barra de pesquisa que abre o motor escolhido. É editável e autorreprodutível («quine»): a transferência produz um novo ficheiro autónomo com as suas alterações. A própria página não tem telemetria, não usa armazenamento do navegador e não carrega recursos externos; os sítios externos só são contactados quando clica. As descrições dos serviços de terceiros foram verificadas pelo autor a 16 de junho de 2026 e podem estar desatualizadas; ver `servicii-de-verificat.md` e `tools/verifica-servicii.mjs`.
 
 ## Histórico / Changelog
