@@ -10,8 +10,8 @@
     "clipboard"
   ],
   "storageKeys": [],
-  "sizeBytes": 289751,
-  "sha256": "edd03ce7fe3ce731616822beb4eaca178d1df2c7ea4ab974f20dc16701f04446",
+  "sizeBytes": 290387,
+  "sha256": "641e59812207a2b6a3cbd862de6e14e3c3ffe69d1bf014a7dde689378813a50a",
   "csp": {
     "present": true,
     "directives": {
@@ -41,7 +41,7 @@
     ]
   },
   "kit": {
-    "version": "1.0.0",
+    "version": "1.1.1",
     "modules": [
       "core",
       "label",
