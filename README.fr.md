@@ -2,7 +2,9 @@
 
 [English](README.md) · [Română](README.ro.md) · **Français** · [Italiano](README.it.md) · [Español](README.es.md) · [Português](README.pt.md) · [Deutsch](README.de.md) · [Magyar](README.hu.md)
 
-**Version :** 1.1.1 · **Dernière mise à jour :** 2026-10-18
+**Version :** 1.2.0 · **Dernière mise à jour :** 2026-10-19
+
+Langues de l'interface : **Română, English, Français, Italiano, Español, Português (PT), Deutsch, Magyar**
 
 Catalogue de 340 services web gratuits, répartis en 54 catégories, choisis parce qu'ils peuvent être utilisés sans compte (dans leur forme de base), dans un seul fichier HTML.
 
