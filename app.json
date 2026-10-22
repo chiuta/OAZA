@@ -2,7 +2,7 @@
   "schema": 1,
   "slug": "oaza",
   "name": "OAZĂ — servicii online dăruite, fără cont",
-  "version": "1.2.5",
+  "version": "1.2.6",
   "updated": "2026-10-22",
   "description": "OAZĂ: catalog de peste 300 de servicii web gratuite, selectate de autor pentru că pot fi folosite fără cont. Un singur fișier HTML, fără telemetrie, editabil și partajabil.",
   "egress": [],
@@ -12,8 +12,8 @@
     "localStorage"
   ],
   "storageKeys": [],
-  "sizeBytes": 823384,
-  "sha256": "6f5948b48c5a747fba5236802dcb159540fbe4ca339065469704348005696c03",
+  "sizeBytes": 846114,
+  "sha256": "adb989c7e05cdaeadf7664caa98bad0bd21d7358220ddb223bd9ee123ca6e860",
   "csp": {
     "present": true,
     "directives": {

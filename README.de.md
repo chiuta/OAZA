@@ -2,7 +2,7 @@
 
 [English](README.md) · [Română](README.ro.md) · [Français](README.fr.md) · [Italiano](README.it.md) · [Español](README.es.md) · [Português](README.pt.md) · **Deutsch** · [Magyar](README.hu.md)
 
-**Version:** 1.2.5 · **Zuletzt aktualisiert:** 2026-10-22
+**Version:** 1.2.6 · **Zuletzt aktualisiert:** 2026-10-22
 
 Oberflächensprachen: **Română, English, Français, Italiano, Español, Português (PT), Deutsch, Magyar**
 
@@ -72,6 +72,10 @@ Alexio — Alexandru-Ionuț Chiuță, Kontakt: alexio@trom.tf
 OAZĂ ist ein rumänischsprachiger Ein-Datei-Katalog mit 340 kostenlosen Webdiensten in 54 Kategorien, ausgewählt, weil ihre Grundnutzung kein Konto braucht, plus einer Suchleiste, die die gewählte Suchmaschine öffnet. Er ist bearbeitbar und selbstreproduzierend („Quine“): Der Download erzeugt eine neue eigenständige Datei mit deinen Änderungen. Die Seite selbst hat keine Telemetrie, nutzt keinen Browserspeicher und lädt keine externen Ressourcen; externe Seiten werden nur kontaktiert, wenn du klickst. Die Beschreibungen der Dienste Dritter wurden vom Autor am 16. Juni 2026 geprüft und können veraltet sein; siehe `servicii-de-verificat.md` und `tools/verifica-servicii.mjs`.
 
 ## Verlauf / Changelog
+
+### 1.2.6 — 2026-10-22
+
+fff-kit 1.1.4: Touch-Ziele und Mindestschriftgröße.
 
 - 1.2.5 — 2026-10-22: Offline: echter Service Worker, Web-Manifest und Icons (installierbar, startet offline neu); der Transparenz-Deskriptor deklariert den Service Worker jetzt.
 - 1.2.4 — 2026-10-22: fff-kit 1.1.2: PBKDF2 mit 600.000 Iterationen, Schutz vor Clickjacking
