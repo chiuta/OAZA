@@ -2,7 +2,7 @@
 
 [English](README.md) · [Română](README.ro.md) · [Français](README.fr.md) · [Italiano](README.it.md) · [Español](README.es.md) · [Português](README.pt.md) · **Deutsch** · [Magyar](README.hu.md)
 
-**Version:** 1.2.3 · **Zuletzt aktualisiert:** 2026-10-22
+**Version:** 1.2.4 · **Zuletzt aktualisiert:** 2026-10-22
 
 Oberflächensprachen: **Română, English, Français, Italiano, Español, Português (PT), Deutsch, Magyar**
 
@@ -73,6 +73,7 @@ OAZĂ ist ein rumänischsprachiger Ein-Datei-Katalog mit 340 kostenlosen Webdien
 
 ## Verlauf / Changelog
 
+- 1.2.4 — 2026-10-22: fff-kit 1.1.2: PBKDF2 mit 600.000 Iterationen, Schutz vor Clickjacking
 - 1.2.3 — 2026-10-22: Alle 13 nativen alert()/confirm()/prompt()-Aufrufe (Löschen, Umbenennen und Hinzufügen von Kategorien, Zurücksetzen, Link kopieren, ungültiger Import) sind durch Dialoge und Hinweise in der Seite ersetzt (bereits übersetzt); Text ≥ 12 px auf dem Handy; größeres Fußzeilen-Ziel.
 
 - 1.1.0 — 2026-10-14: Datensicherung und Datenkennzeichnung (fff-kit).

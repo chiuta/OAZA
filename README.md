@@ -2,7 +2,7 @@
 
 **English** · [Română](README.ro.md) · [Français](README.fr.md) · [Italiano](README.it.md) · [Español](README.es.md) · [Português](README.pt.md) · [Deutsch](README.de.md) · [Magyar](README.hu.md)
 
-**Version:** 1.2.3 · **Last updated:** 2026-10-22
+**Version:** 1.2.4 · **Last updated:** 2026-10-22
 
 Interface languages: **Română, English, Français, Italiano, Español, Português (PT), Deutsch, Magyar**
 
@@ -74,6 +74,7 @@ OAZĂ is a single-file Romanian-language catalog of 340 free web services in 54 
 
 ## History / Changelog
 
+- 1.2.4 — 2026-10-22: fff-kit 1.1.2: PBKDF2 600,000 iterations, anti-clickjacking protection
 - 1.2.3 — 2026-10-22: All 13 native alert()/confirm()/prompt() calls (delete, rename and add category, reset, link copy fallback, invalid import) are replaced by in-page dialogs and notices (already translated); text ≥ 12 px on mobile; larger footer target.
 
 - 1.1.0 — 2026-10-14: Backup and data labelling (fff-kit).
