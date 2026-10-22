@@ -2,7 +2,7 @@
 
 [English](README.md) · [Română](README.ro.md) · [Français](README.fr.md) · [Italiano](README.it.md) · [Español](README.es.md) · [Português](README.pt.md) · [Deutsch](README.de.md) · **Magyar**
 
-**Verzió:** 1.2.1 · **Utolsó frissítés:** 2026-10-19
+**Verzió:** 1.2.2 · **Utolsó frissítés:** 2026-10-22
 
 A felület nyelvei: **Română, English, Français, Italiano, Español, Português (PT), Deutsch, Magyar**
 
@@ -80,3 +80,7 @@ Az OAZĂ egyetlen fájlba zárt, román nyelvű katalógus 340 ingyenes webszolg
 - **2026. október 11.** — a quine javítva: az oldalba kódolt héj nem tartalmazta a `main` tájékozódási pontot, ezért a „letöltés” és a „forrás” a megnyitottól eltérő fájlt állított elő; most a letöltött fájl bájtra azonos a megnyitottal (ellenőrizve). Hozzáadva a világos téma, a nyomtatási stílus és a `/` billentyűparancs. Megjegyzés: a szkript-hash alapú CSP-szabályzat nem lehetséges, mert a szkript tartalmazza a saját kódolt forrását (önhivatkozás); a `'unsafe-inline'` marad.
 - **2026. október 11.** — az oldal tartalma (keresés, megjegyzések, szűrő, kategóriák) egyetlen `main` tájékozódási pontba van foglalva, így az axe-core 0 hibát ad 1280×800 és 360×740 méretnél; ellenőrizve, hogy a szűrő és a „forrás (quine)” JS-hibák nélkül működik.
 - A 340 szolgáltatás listáját ebben a körben **nem ellenőrizték újra**: a „fiók nélkül / ingyenes / követés nélkül” állítások a szerzőé és az oldalon megjelenített dátumé („a szerző ellenőrizte · 2026. június 16. · elavult lehet”), amely változatlan maradt; az újraellenőrzés helyben történik a `tools/verifica-servicii.mjs` szkripttel (lásd `servicii-de-verificat.md`). Az alkalmazásnak nincs verziószáma.
+
+### 1.2.2 — 2026-10-22
+- A katalógus kb. 15 román nyelvű bejegyzésének neve (TROM Térképek, Wikiszótár, Bírósági portál stb.) minden nyelven le van fordítva.
+

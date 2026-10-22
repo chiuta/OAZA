@@ -2,7 +2,7 @@
 
 [English](README.md) · [Română](README.ro.md) · [Français](README.fr.md) · **Italiano** · [Español](README.es.md) · [Português](README.pt.md) · [Deutsch](README.de.md) · [Magyar](README.hu.md)
 
-**Versione:** 1.2.1 · **Ultimo aggiornamento:** 2026-10-19
+**Versione:** 1.2.2 · **Ultimo aggiornamento:** 2026-10-22
 
 Lingue dell'interfaccia: **Română, English, Français, Italiano, Español, Português (PT), Deutsch, Magyar**
 
@@ -80,3 +80,7 @@ OAZĂ è un catalogo rumeno in un unico file di 340 servizi web gratuiti in 54 c
 - **11 ottobre 2026** — riparato il quine: il guscio codificato nella pagina non includeva il riferimento `main`, quindi «scarica» e «sorgente» producevano un file diverso da quello aperto; ora il file scaricato è identico byte per byte a quello aperto (verificato). Aggiunti il tema chiaro, lo stile di stampa e la scorciatoia `/`. Nota: una politica CSP basata sull'hash dello script non è possibile, perché lo script contiene la propria sorgente codificata (autoriferimento); resta `'unsafe-inline'`.
 - **11 ottobre 2026** — il contenuto della pagina (ricerca, note, filtro, categorie) è racchiuso in un unico riferimento `main`, quindi axe-core dà 0 violazioni a 1280×800 e 360×740; verificato che il filtro e «sorgente (quine)» funzionano senza errori JS.
 - L'elenco di 340 servizi **non è stato riverificato** in questo turno: le affermazioni «senza account / gratuito / senza tracciamento» appartengono all'autore e alla data mostrata nella pagina («verificato dall'autore · 16 giugno 2026 · può essere superato»), rimasta invariata; la riverifica si fa in locale con `tools/verifica-servicii.mjs` (vedi `servicii-de-verificat.md`). L'app non ha un numero di versione.
+
+### 1.2.2 — 2026-10-22
+- I nomi di circa 15 voci romene del catalogo (Mappe TROM, Wikizionario, Portale dei tribunali, ecc.) sono tradotti in tutte le lingue.
+

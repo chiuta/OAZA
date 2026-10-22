@@ -2,7 +2,7 @@
 
 [English](README.md) · [Română](README.ro.md) · [Français](README.fr.md) · [Italiano](README.it.md) · [Español](README.es.md) · [Português](README.pt.md) · **Deutsch** · [Magyar](README.hu.md)
 
-**Version:** 1.2.1 · **Zuletzt aktualisiert:** 2026-10-19
+**Version:** 1.2.2 · **Zuletzt aktualisiert:** 2026-10-22
 
 Oberflächensprachen: **Română, English, Français, Italiano, Español, Português (PT), Deutsch, Magyar**
 
@@ -80,3 +80,7 @@ OAZĂ ist ein rumänischsprachiger Ein-Datei-Katalog mit 340 kostenlosen Webdien
 - **11. Oktober 2026** — Quine repariert: Die in der Seite kodierte Hülle enthielt die Landmarke `main` nicht, sodass „herunterladen“ und „Quelle“ eine andere Datei als die geöffnete erzeugten; jetzt ist die heruntergeladene Datei byteidentisch mit der geöffneten (geprüft). Helles Design, Druckstil und das Kürzel `/` hinzugefügt. Hinweis: Eine CSP-Richtlinie per Skript-Hash ist nicht möglich, da das Skript seinen eigenen kodierten Quelltext enthält (Selbstreferenz); `'unsafe-inline'` bleibt.
 - **11. Oktober 2026** — Der Seiteninhalt (Suche, Hinweise, Filter, Kategorien) ist in einer einzigen Landmarke `main` gefasst, sodass axe-core bei 1280×800 und 360×740 0 Verstöße meldet; geprüft, dass der Filter und „Quelle (Quine)“ ohne JS-Fehler funktionieren.
 - Die Liste der 340 Dienste wurde in dieser Runde **nicht neu geprüft**: Die Aussagen „ohne Konto / kostenlos / ohne Tracking“ gehören dem Autor und dem in der Seite angezeigten Datum („vom Autor geprüft · 16. Juni 2026 · kann veraltet sein“), das unverändert blieb; die Neuprüfung erfolgt lokal mit `tools/verifica-servicii.mjs` (siehe `servicii-de-verificat.md`). Die App hat keine Versionsnummer.
+
+### 1.2.2 — 2026-10-22
+- Die Namen von etwa 15 rumänischen Katalogeinträgen (TROM-Karten, Wiktionary, Gerichtsportal usw.) sind in alle Sprachen übersetzt.
+
