@@ -2,7 +2,7 @@
 
 [English](README.md) · [Română](README.ro.md) · [Français](README.fr.md) · [Italiano](README.it.md) · [Español](README.es.md) · [Português](README.pt.md) · [Deutsch](README.de.md) · **Magyar**
 
-**Verzió:** 1.2.2 · **Utolsó frissítés:** 2026-10-22
+**Verzió:** 1.2.3 · **Utolsó frissítés:** 2026-10-22
 
 A felület nyelvei: **Română, English, Français, Italiano, Español, Português (PT), Deutsch, Magyar**
 
@@ -72,6 +72,8 @@ Alexio — Alexandru-Ionuț Chiuță, kapcsolat: alexio@trom.tf
 Az OAZĂ egyetlen fájlba zárt, román nyelvű katalógus 340 ingyenes webszolgáltatásról 54 kategóriában, azért kiválasztva, mert alapvető használatukhoz nem kell fiók, kiegészítve egy keresősávval, amely a kiválasztott motort nyitja meg. Szerkeszthető és önreprodukáló („quine”): a letöltés új, önálló fájlt hoz létre a módosításaiddal. Maga az oldal nem használ telemetriát és böngészőtárolót, és nem tölt be külső erőforrásokat; a külső oldalakkal csak kattintásra veszi fel a kapcsolatot. A harmadik felek szolgáltatásainak leírásait a szerző 2026. június 16-án ellenőrizte, és elavultak lehetnek; lásd a `servicii-de-verificat.md` és a `tools/verifica-servicii.mjs` fájlt.
 
 ## Előzmények / Changelog
+
+- 1.2.3 — 2026-10-22: Mind a 13 natív alert()/confirm()/prompt() hívás (törlés, kategória átnevezése és hozzáadása, visszaállítás, hivatkozás másolása, érvénytelen import) oldalon belüli párbeszédpanelre és értesítésre cserélve (már lefordítva); legalább 12 px szöveg mobilon; nagyobb lábléc-célpont.
 
 - 1.1.0 — 2026-10-14: Biztonsági mentés és adatcímkézés (fff-kit).
 

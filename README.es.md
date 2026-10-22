@@ -2,7 +2,7 @@
 
 [English](README.md) · [Română](README.ro.md) · [Français](README.fr.md) · [Italiano](README.it.md) · **Español** · [Português](README.pt.md) · [Deutsch](README.de.md) · [Magyar](README.hu.md)
 
-**Versión:** 1.2.2 · **Última actualización:** 2026-10-22
+**Versión:** 1.2.3 · **Última actualización:** 2026-10-22
 
 Idiomas de la interfaz: **Română, English, Français, Italiano, Español, Português (PT), Deutsch, Magyar**
 
@@ -73,6 +73,8 @@ Alexio — Alexandru-Ionuț Chiuță, contacto: alexio@trom.tf
 OAZĂ es un catálogo rumano en un solo archivo de 340 servicios web gratuitos en 54 categorías, elegidos porque su uso básico no necesita cuenta, más una barra de búsqueda que abre el motor elegido. Es editable y autorreproducible («quine»): la descarga produce un archivo autónomo nuevo con tus cambios. La página en sí no tiene telemetría, no usa almacenamiento del navegador y no carga recursos externos; los sitios externos solo se contactan cuando haces clic. Las descripciones de los servicios de terceros fueron verificadas por el autor el 16 de junio de 2026 y pueden estar desactualizadas; véanse `servicii-de-verificat.md` y `tools/verifica-servicii.mjs`.
 
 ## Historial / Changelog
+
+- 1.2.3 — 2026-10-22: Las 13 llamadas nativas alert()/confirm()/prompt() (borrar, renombrar y añadir categoría, restablecer, copiar enlace, importación no válida) se sustituyen por diálogos y avisos integrados (ya traducidos); texto ≥ 12 px en móvil; zona del pie más grande.
 
 - 1.1.0 — 2026-10-14: Copia de seguridad y etiquetado de datos (fff-kit).
 
