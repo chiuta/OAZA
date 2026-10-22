@@ -2,7 +2,7 @@
 
 [English](README.md) · **Română** · [Français](README.fr.md) · [Italiano](README.it.md) · [Español](README.es.md) · [Português](README.pt.md) · [Deutsch](README.de.md) · [Magyar](README.hu.md)
 
-**Versiune:** 1.2.4 · **Ultima actualizare:** 2026-10-22
+**Versiune:** 1.2.5 · **Ultima actualizare:** 2026-10-22
 
 Limbile interfeței: **Română, English, Français, Italiano, Español, Português (PT), Deutsch, Magyar**
 
@@ -74,6 +74,7 @@ OAZĂ este un catalog într-un singur fișier, în limba română, cu 340 de ser
 
 ## Istoric / Changelog
 
+- 1.2.5 — 2026-10-22: Offline: service worker real, manifest web și icoane (instalabilă, repornește offline); descriptorul de transparență declară acum service worker-ul.
 - 1.2.4 — 2026-10-22: fff-kit 1.1.2: PBKDF2 600 000 iterații, protecție anti-clickjacking
 - 1.2.3 — 2026-10-22: Toate cele 13 apeluri native alert()/confirm()/prompt() (ștergere, redenumire și adăugare categorie, resetare, copiere link, import invalid) sunt înlocuite cu dialoguri și notificări în pagină (deja traduse); text ≥ 12 px pe mobil; ținta din subsol mai mare.
 

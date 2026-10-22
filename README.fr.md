@@ -2,7 +2,7 @@
 
 [English](README.md) · [Română](README.ro.md) · **Français** · [Italiano](README.it.md) · [Español](README.es.md) · [Português](README.pt.md) · [Deutsch](README.de.md) · [Magyar](README.hu.md)
 
-**Version :** 1.2.4 · **Dernière mise à jour :** 2026-10-22
+**Version :** 1.2.5 · **Dernière mise à jour :** 2026-10-22
 
 Langues de l'interface : **Română, English, Français, Italiano, Español, Português (PT), Deutsch, Magyar**
 
@@ -73,6 +73,7 @@ OAZĂ est un catalogue roumain en un seul fichier de 340 services web gratuits r
 
 ## Historique / Changelog
 
+- 1.2.5 — 2026-10-22: Hors ligne : véritable service worker, manifeste web et icônes (installable, redémarre hors ligne) ; le descripteur de transparence déclare désormais le service worker.
 - 1.2.4 — 2026-10-22 : fff-kit 1.1.2 : PBKDF2 à 600 000 itérations, protection anti-clickjacking
 - 1.2.3 — 2026-10-22 : Les 13 appels natifs alert()/confirm()/prompt() (suppression, renommage et ajout de catégorie, réinitialisation, copie du lien, import invalide) sont remplacés par des dialogues et notifications intégrés (déjà traduits) ; texte ≥ 12 px sur mobile ; cible du pied de page plus grande.
 
