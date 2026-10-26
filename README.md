@@ -2,7 +2,7 @@
 
 **English** · [Română](README.ro.md) · [Français](README.fr.md) · [Italiano](README.it.md) · [Español](README.es.md) · [Português](README.pt.md) · [Deutsch](README.de.md) · [Magyar](README.hu.md)
 
-**Version:** 1.2.8 · **Last updated:** 2026-10-26
+**Version:** 2.0.0 · **Last updated:** 2026-10-26
 
 Interface languages: **Română, English, Français, Italiano, Español, Português (PT), Deutsch, Magyar**
 
@@ -20,6 +20,7 @@ The file is an editable "quine": it can be modified in the page, and the "downlo
 
 ## Features
 
+- **Focus (2.0)**: the "🌿 focus" button opens a short, fully offline flow: guided breathing (in/hold/out with an animated circle that respects `prefers-reduced-motion`), pauses with a message and **ambient sound generated in the browser** (rain, brown noise, waves; WebAudio, no audio files). 3 ready-made programs, **custom programs** (reorderable breathing/pause steps; max 60 min) and a **local journal** (duration, mood 1–5, note; stored on the device only, clearable in one click). Not a medical tool.
 - 340 services in 54 categories; cards with a short description, domain and tags (`TROM`, `local`, `instabil`, `temp`, ★ recommended); some categories have a cautionary note.
 - Instant filtering of the list (diacritic-insensitive: "cautare" finds "Căutare"), with a message when there are no results; the `/` key moves the cursor to the filter field.
 - Automatic light theme (`prefers-color-scheme: light`) and print style (cards in 3 columns, with the full address; bars and buttons hidden).

@@ -2,7 +2,7 @@
 
 [English](README.md) · **Română** · [Français](README.fr.md) · [Italiano](README.it.md) · [Español](README.es.md) · [Português](README.pt.md) · [Deutsch](README.de.md) · [Magyar](README.hu.md)
 
-**Versiune:** 1.2.8 · **Ultima actualizare:** 2026-10-26
+**Versiune:** 2.0.0 · **Ultima actualizare:** 2026-10-26
 
 Limbile interfeței: **Română, English, Français, Italiano, Español, Português (PT), Deutsch, Magyar**
 
@@ -20,6 +20,7 @@ Fișierul este un „quine” editabil: se poate modifica în pagină, iar buton
 
 ## Funcții
 
+- **Focus (2.0)**: butonul „🌿 focus” deschide un flux scurt, complet offline: respirație ghidată (inspiră/ține/expiră, cu cerc animat care respectă `prefers-reduced-motion`), pauze cu mesaj și **sunet ambient generat în browser** (ploaie, zgomot brun, valuri; WebAudio, fără fișiere audio). 3 programe gata făcute, **programe personalizate** (pași de respirație/pauză, ordonabili; maximum 60 min) și **jurnal local** (durată, stare 1–5, notă; stocat doar pe dispozitiv, șters cu un clic). Nu este un instrument medical.
 - 340 de servicii în 54 de categorii; carduri cu descriere scurtă, domeniu și etichete (`TROM`, `local`, `instabil`, `temp`, ★ recomandat); unele categorii au o notă de prudență.
 - Filtrare instantanee a listei (fără diacritice: „cautare” găsește „Căutare”), cu mesaj când nu există rezultate; tasta `/` mută cursorul în câmpul de filtrare.
 - Temă luminoasă automată (`prefers-color-scheme: light`) și stil de tipărire (carduri pe 3 coloane, cu adresa completă; bare și butoane ascunse).
