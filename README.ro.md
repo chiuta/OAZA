@@ -2,7 +2,11 @@
 
 [English](README.md) · **Română** · [Français](README.fr.md) · [Italiano](README.it.md) · [Español](README.es.md) · [Português](README.pt.md) · [Deutsch](README.de.md) · [Magyar](README.hu.md)
 
-**Versiune:** 2.0.0 · **Ultima actualizare:** 2026-10-26
+**Versiune:** 2.0.1 · **Ultima actualizare:** 2026-10-27
+
+**Stare:** stabilă (2.0.1). Lista a fost verificată de autor la 16 iunie 2026 și poate fi depășită; această recenzie nu a reverificat serviciile.
+
+**Offline:** parțial. Pagina și Focus funcționează offline; serviciile listate sunt externe și cer rețea (contactate doar la clic).
 
 Limbile interfeței: **Română, English, Français, Italiano, Español, Português (PT), Deutsch, Magyar**
 
@@ -48,6 +52,14 @@ Fișierul este un „quine” editabil: se poate modifica în pagină, iar buton
 - Permisiuni ale browserului: nu cere nicio permisiune (locație, cameră, microfon).
 - Afirmația „fără telemetrie” se referă la fișierul OAZĂ, nu la serviciile externe.
 
+## Ce conține exact
+
+OAZĂ este o listă de legături, nu un serviciu: „dăruite” înseamnă oferite gratuit, în spiritul trade-free. Nu găzduiește nimic; grupează și descrie servicii ținute de alții. Numărate din cod: **340 de servicii în 54 de categorii**, 318 domenii distincte, 44 marcate ★, etichete `trom` (6), `local` (8), `instabil` (7), `temp` (1).
+
+Categorii (servicii pe categorie): Căutare (8), Inteligență artificială (7), Hărți, vreme & navigare (8), Traducere & limbă (7), Fișiere & transfer (5), Documente, notițe & pastebin (6), Cod & dezvoltare (8), Date & diagrame (6), Imagine, PDF & design (8), Imagini libere & media CC (6), Comunicare (4), Video liber (3), Audio & unelte (5), Muzică & radio liber (7), Jocuri libere (6), Știință, matematică & cer (6), Cărți & lectură liberă (6), Știință & academic deschis (6), Învățare & referință (5), Confidențialitate & securitate (6), Frontend-uri private (4), Scriere & cuvinte (7), Cultură, artă & domeniu public (6), Date deschise & statistici (6), Playground-uri de cod (6), Focus & timp (6), Educație deschisă (OER) (6), România: instituții & date publice (6), România: biblioteci digitale (6), România: presă liberă (6), Cer, sateliți & UAP (8), Software liber & Linux (7), Scriitori RO: limbă & dicționare (5), Hărți meteo & seismologie RO (6), Radio & TV publice RO (6), Muzee & patrimoniu RO (6), Hărți istorice (6), Benzi desenate & SF (6), Radiouri tematice (7), Muzică clasică liberă (6), Film în domeniu public (6), Hărți meteo marine (6), Jocuri de logică (6), Fonturi libere (6), Programe libere esențiale (10), Distribuții Linux (8), Libertate digitală & licențe (8), Cloud personal & self-hosting (8), Căutare liberă & metacăutare (7), Android liber & degooglizat (6), Unelte pentru muzicieni (6), Hărți stelare & atlas ceresc (6), Sănătate & prim-ajutor (6), Utilitare & viteză (6).
+
+Pentru cine: oricine vrea unelte web fără cont și, pe cât se poate, fără reclame sau urmărire; accentul e pe utilizatorii vorbitori de română (instituții românești, biblioteci digitale, presă, radio și TV public, muzee, meteo). Listarea nu e o recomandare (vezi mai jos). Aceeași descriere este în aplicație, la „Ce este OAZĂ și ce conține?”.
+
 ## Limite și avertismente
 
 - **Servicii terțe.** Serviciile listate nu aparțin autorului și nu au legătură cu el (cu excepția celor etichetate TROM). Listarea nu este o recomandare. Ele pot cere cont, afișa reclame, adăuga planuri plătite, schimba condițiile sau dispărea oricând.
@@ -75,6 +87,10 @@ OAZĂ este un catalog într-un singur fișier, în limba română, cu 340 de ser
 
 ## Istoric / Changelog
 
+
+### 2.0.1 — 2026-10-27
+
+Doar text: descriere clară a ce conține OAZĂ și pentru cine (în aplicație și în acest README), linii Stare / Offline. Vezi CHANGELOG.md.
 ### 1.2.6 — 2026-10-22
 
 fff-kit 1.1.4: ținte tactile și text minim.
