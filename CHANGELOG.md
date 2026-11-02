@@ -5,6 +5,7 @@
 Verificare țintită a serviciilor închise/mutate (eșantion, nu lista completă; data „verificat de autor · 16 iunie 2026” din pagină rămâne neschimbată).
 
 ### Actualizat
+- Cele 6 descrieri actualizate (Android privat, Phind, Arena, Nitter, Observatory, Transfer) lipseau în cele 7 limbi (apăreau în română); traduse acum.
 - Phind: marcat „instabil”; mai multe surse secundare raportează închiderea în ianuarie 2026.
 - LMArena -> „Arena (fost LMArena)”, arena.ai (redenumit la 28 ianuarie 2026; arena.ai/blog/lmarena-is-now-arena).
 - Mozilla Observatory -> MDN HTTP Observatory, developer.mozilla.org/en-US/observatory (mutat în iulie 2024).
