@@ -2,7 +2,7 @@
 
 **English** · [Română](README.ro.md) · [Français](README.fr.md) · [Italiano](README.it.md) · [Español](README.es.md) · [Português](README.pt.md) · [Deutsch](README.de.md) · [Magyar](README.hu.md)
 
-**Version:** 2.0.2 · **Last updated:** 2026-11-02
+**Version:** 2.0.3 · **Last updated:** 2026-11-07
 
 **Status:** stable (2.0.1). The list was checked by the author on 16 June 2026 and may be out of date; this review did not re-check the services.
 
