@@ -1,4 +1,4 @@
-// 2.0.3: blocul „Ce este OAZĂ și ce conține?”; cifrele din text trebuie să coincidă cu datele.
+// 2.0.4: blocul „Ce este OAZĂ și ce conține?”; cifrele din text trebuie să coincidă cu datele.
 import {launch, check, summary, hOverflow} from "./_lib.mjs";
 const {browser, page, st} = await launch({w: 375, h: 800});
 await page.waitForTimeout(600);
