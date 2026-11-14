@@ -9,16 +9,17 @@
   "permissions": [
     "clipboard",
     "serviceWorker",
-    "localStorage"
+    "localStorage",
+    "WebGL"
   ],
   "storageKeys": [],
-  "sizeBytes": 1132057,
-  "sha256": "4d4132221ca0cf27fe8e162e0fb5b0de33ca1e7de48c09b838e26929022c9b5c",
+  "sizeBytes": 1183697,
+  "sha256": "08838fc0e353e373bebba07ae86d97ed3e271e231c6028bfd369b0ea43e664ed",
   "csp": {
     "present": true,
     "directives": {
       "default-src": "'none'",
-      "script-src": "sha256×3",
+      "script-src": "sha256×4",
       "style-src": "'unsafe-inline'",
       "img-src": "'self' data:",
       "connect-src": "'self'",
